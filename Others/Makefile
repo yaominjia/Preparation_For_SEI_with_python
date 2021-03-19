@@ -1,7 +1,8 @@
-# Thanks to Job Vranish (https://spin.atomicobject.com/2016/08/26/makefile-c-projects/)
 TARGET_EXEC := final_program
 
+#the build bin will be in this dir
 BUILD_DIR := ./build
+#put all the source file in this dir
 SRC_DIRS := ./src
 
 # Find all the C and C++ files we want to compile
@@ -26,7 +27,7 @@ CPPFLAGS := $(INC_FLAGS) -MMD -MP
 
 # The final build step.
 $(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
-    $(CC) $(OBJS) -o $@ $(LDFLAGS)
+    $(CC) $(OBJS) -o $@ $(LDFLAGS) #if there are libs needed, add them here
 
 # Build step for C source
 $(BUILD_DIR)/%.c.o: %.c
