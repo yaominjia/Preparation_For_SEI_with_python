@@ -175,3 +175,10 @@ __add__(), __mul__()
 方法后，就是实现了两个实例间的 ‘+’ 和 ‘*’ 操作，这也叫操作符重载。
 
 这也是python中所谓鸭子类型的基础，定义的什么类不重要，重要的是这个类中所实现的特殊函数，如果实现了某一特殊函数，那么这个类就可以用于某个操作的操作数（函数的参数）。
+
+### 参考：
+
+[[3. Data model — Python 3.9.2 documentation](https://docs.python.org/3/reference/datamodel.html)](https://docs.python.org/3/reference/datamodel.html)
+
+《fluent python》
+

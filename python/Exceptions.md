@@ -109,3 +109,13 @@ except Exception as ex:
 	log_traceback(ex)
 ```
 
+### 参考：
+
+[[Python Exceptions: An Introduction – Real Python](https://realpython.com/python-exceptions/)](https://realpython.com/python-exceptions/)
+
+[[The Most Diabolical Python Antipattern – Real Python](https://realpython.com/the-most-diabolical-python-antipattern/)](https://realpython.com/the-most-diabolical-python-antipattern/)
+
+
+
+
+
